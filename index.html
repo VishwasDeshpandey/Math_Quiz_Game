@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-Game-By-Vishwas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main class="flex">
+
+      <div class="main-container">
+        <header class="flex">
+            
+            <h4 class="left-header">Play Quiz</h4>
+
+            <div class="right-header flex">
+             
+                <div class="first">
+                    <span>⏱️</span>
+                    <span class="timeleft">remaining 00 sec</span>
+                </div>
+                
+                <div class="second">
+                    <span id="score">Score: 00</span>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="gameArea flex">
+            <div id="message"></div>
+
+            <div class="left-gameArea flex">
+                <h1 class="question">12 x 50</h1>
+
+                <div class="name-section flex">
+                    <input type="text" name="yourName" id="nameField" placeholder="Enter name to start Quiz">
+                    <small id="fieldMessage"></small>
+                    <button id="start">start Quiz</button>
+                </div>
+            </div>
+
+            <div class="right-gameArea">
+                <div class="box flex" id="box1">8</div>
+                <div class="box flex" id="box2">12</div>
+                <div class="box flex" id="box3">168</div>
+                <div class="box flex" id="box4">250</div>
+            </div>
+        </div>
+
+        <footer class="flex">
+            <span>created with ❣️ by Vishwas</span>
+        </footer>
+
+        
+            <div class="GameOver flex">
+                <h1 class="displayName">Congrats: Your Name</h1>
+                <p class="displayStatus">You Won</p>
+                <p class="finalScore">Score: 00</p>
+                <button class="restartGame">restartGame</button>
+            </div>
+        
+
+      </div>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
